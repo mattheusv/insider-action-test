@@ -1,0 +1,15 @@
+name: insider
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  insider:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Insider
+        uses: insidersec/insider@v0.1.0
+        with:
+            technology: javascript
+            target: src

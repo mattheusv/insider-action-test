@@ -8,6 +8,11 @@ jobs:
   insider:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - name: Run Insider
         uses: insidersec/insider-action@96421050fa19e81e54312ea5d54c217642fa9c5f
         with:

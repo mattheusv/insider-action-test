@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Insider
-        uses: insidersec/insider-action@199908415e7c7d45d53738131dca84bd4cb31f00
+        uses: insidersec/insider-action@f3f2001d4054e8a3fc1e561be04c09fe5305c96c
         with:
             technology: javascript
             target: src

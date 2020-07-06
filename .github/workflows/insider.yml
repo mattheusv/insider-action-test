@@ -15,4 +15,4 @@ jobs:
         uses: insidersec/insider-action@issue-1
         with:
             technology: javascript
-            target: src
+            target: .

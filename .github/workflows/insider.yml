@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run Insider
-        uses: insidersec/insider-action@7f3c16e6df4c916eeee95dfa687e97f4948cb432
+        uses: insidersec/insider-action@issue-1
         with:
             technology: javascript
             target: src
